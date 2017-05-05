@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40"
+        android:gravity="center"
+        android:text="User Authentication"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/login_mobnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40"
+        android:background="@drawable/back_edittext"
+        android:hint="Enter Mobile Number Here"
+        android:paddingBottom="@dimen/padding_10"
+        android:paddingEnd="@dimen/padding_10"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_10"
+        android:paddingStart="@dimen/padding_20"
+        android:paddingTop="@dimen/padding_10"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btSendOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_80"
+        android:layout_marginLeft="@dimen/margin_80"
+        android:layout_marginRight="@dimen/margin_80"
+        android:layout_marginStart="@dimen/margin_80"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@color/purple_4151fd_light"
+        android:text="Send OTP"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/login_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@drawable/back_edittext"
+        android:hint="Enter OTP Here"
+        android:paddingBottom="@dimen/padding_10"
+        android:paddingEnd="@dimen/padding_10"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_10"
+        android:paddingStart="@dimen/padding_20"
+        android:paddingTop="@dimen/padding_10"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_80"
+        android:layout_marginLeft="@dimen/margin_80"
+        android:layout_marginRight="@dimen/margin_80"
+        android:layout_marginStart="@dimen/margin_80"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@color/purple_4151fd"
+        android:text="Login"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40"
+        android:gravity="center"
+        android:text="@string/LogintoSignup"
+        android:textColor="@color/purple_4151fd" />-->
+
+    <Button
+        android:id="@+id/btGoToSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_80"
+        android:layout_marginRight="@dimen/margin_80"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@drawable/back_edittext"
+        android:text="Sign Up"
+        android:visibility="invisible"
+        android:textColor="@color/purple_4151fd_light"
+        android:textSize="20sp" />
+
+</LinearLayout>
