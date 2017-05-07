@@ -20,5 +20,15 @@
     <string name="LogintoSignup">Don\'t have an account yet? Don\'t worry. Sign up to use our services using the button below</string>
     <string name="username">Enter UserName</string>
     <string name="OTP">Enter OTP</string>
+    <string name="enter_mobile_number_here">Enter Mobile Number Here</string>
+    <string name="enable_editing">Tap and hold a box to enable editing</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="user_authentication">User Authentication</string>
+    <string name="submit_details">Submit Details</string>
+    <string name="enter_you_shops_address">Enter you shops\' address</string>
+    <string name="enter_email_id">Enter your shop\'s Email ID</string>
+    <string name="enter_shop_address">Enter your Shop\'s Address</string>
+    <string name="enter_shop_name">Enter the name of your Shop</string>
 
 </resources>

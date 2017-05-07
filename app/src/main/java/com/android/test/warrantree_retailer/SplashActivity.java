@@ -21,7 +21,8 @@ public class SplashActivity extends AppCompatActivity {
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                startActivity(new Intent(SplashActivity.this, UserLogin.class));
+                //startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                 //finish();
             }
         });
@@ -31,7 +32,8 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(3000);
-                    startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                    startActivity(new Intent(SplashActivity.this, UserLogin.class));
+//                    startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

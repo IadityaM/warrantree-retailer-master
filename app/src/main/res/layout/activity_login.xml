@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_40"
+        android:layout_marginTop="@dimen/margin_20"
         android:gravity="center"
         android:text="User Authentication"
         android:textColor="@color/colorPrimary"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_40"
         android:background="@drawable/back_edittext"
-        android:hint="Enter Mobile Number Here"
+        android:hint="@string/enter_mobile_number_here"
         android:paddingBottom="@dimen/padding_10"
         android:paddingEnd="@dimen/padding_10"
         android:paddingLeft="@dimen/padding_20"
@@ -34,6 +34,25 @@
         android:paddingStart="@dimen/padding_20"
         android:paddingTop="@dimen/padding_10"
         android:textColorHint="@color/colorPrimaryDark" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:textColorHint="#673ab7"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/user_mob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:hint="@string/enter_mobile_number_here"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textStyle="bold" />
+    </android.support.design.widget.TextInputLayout>
 
     <Button
         android:id="@+id/btSendOTP"
@@ -55,6 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_20"
         android:background="@drawable/back_edittext"
+        android:gravity="center"
         android:hint="Enter OTP Here"
         android:paddingBottom="@dimen/padding_10"
         android:paddingEnd="@dimen/padding_10"
@@ -62,9 +82,8 @@
         android:paddingRight="@dimen/padding_10"
         android:paddingStart="@dimen/padding_20"
         android:paddingTop="@dimen/padding_10"
-        android:gravity="center"
-        android:visibility="invisible"
-        android:textColorHint="@color/colorPrimaryDark" />
+        android:textColorHint="@color/colorPrimaryDark"
+        android:visibility="invisible" />
 
 
     <Button
@@ -78,9 +97,9 @@
         android:layout_marginTop="@dimen/margin_20"
         android:background="@color/purple_4151fd"
         android:text="Login"
-        android:visibility="invisible"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="invisible" />
 
     <!--<TextView
         android:layout_width="match_parent"
@@ -99,8 +118,16 @@
         android:layout_marginTop="@dimen/margin_20"
         android:background="@drawable/back_edittext"
         android:text="Sign Up"
-        android:visibility="invisible"
         android:textColor="@color/purple_4151fd_light"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/tv_edit_hint"
+        android:text="Tap and hold a box to enable editing" />
+
 
 </LinearLayout>

@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#00bcd4</color>
 
     <color name="purple_304ffe">#304ffe</color>
     <color name="purple_7988ff">#7988ff</color>
@@ -22,4 +22,7 @@
 
     <color name="input_register">#e6ffffff</color>
 
+    <color name="colorPrimaryBase">#3F51B5</color>
+    <color name="colorPrimaryDarkBase">#303F9F</color>
+    <color name="colorAccentBase">#FF4081</color>
 </resources>
