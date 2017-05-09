@@ -21,12 +21,12 @@
         android:textStyle="bold" />
 
     <android.support.design.widget.TextInputLayout
+        android:id="@+id/user_auth_MobNum_Lay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_10"
         android:orientation="horizontal"
-        android:textColor="#673ab7"
-        android:visibility="visible">
+        android:textColor="#673ab7">
 
         <EditText
             android:id="@+id/user_auth_MobNum"

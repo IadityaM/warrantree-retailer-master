@@ -42,6 +42,7 @@ public class UserLogin extends AppCompatActivity {
         tv_edithint = (TextView) findViewById(R.id.tv_edit_hint);
 
         //Referencing TextInputLayouts - in order of display
+        et_NumMoblay = (TextInputLayout) findViewById(R.id.user_auth_MobNum_Lay);
         et_OTPlay = (TextInputLayout) findViewById(R.id.user_auth_OTP_lay);
         et_ShopNamelay = (TextInputLayout) findViewById(R.id.user_auth_ShopName_lay);
         et_ShopEmaillay = (TextInputLayout) findViewById(R.id.user_auth_Email_lay);
